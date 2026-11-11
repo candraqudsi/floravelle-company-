@@ -1,0 +1,311 @@
+
+/* ===== FLORAVELLE ABOUT US ===== */
+
+.flor-header {
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fffafd;
+    border-bottom: 1px solid #f3e5ef;
+}
+
+.flor-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #80608f;
+    text-decoration: none;
+}
+
+.flor-logo span {
+    color: #d991b5;
+    margin-left: 5px;
+}
+
+.flor-nav {
+    display: flex;
+    gap: 28px;
+}
+
+.flor-nav a {
+    color: #66566c;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.flor-nav a:hover,
+.flor-nav a.active {
+    color: #c47da5;
+}
+
+.flor-hero {
+    min-height: 390px;
+    padding: 75px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background: linear-gradient(120deg, #fce9f1, #eee5fa, #f9edf5);
+}
+
+.hero-content {
+    max-width: 620px;
+}
+
+.eyebrow {
+    color: #b47c9e;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.flor-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(40px, 6vw, 65px);
+    color: #594765;
+    margin: 15px 0;
+}
+
+.flor-hero h1 span,
+.story-content h2 span,
+.section-heading h2 span {
+    color: #bd83a8;
+}
+
+.flor-hero p {
+    color: #77677e;
+    line-height: 1.8;
+}
+
+.hero-decoration {
+    font-size: 180px;
+    color: #bd91c5;
+    opacity: .55;
+    transform: rotate(-15deg);
+}
+
+.flor-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background: #9b78a8;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.flor-button:hover {
+    background: #795b88;
+    transform: translateY(-3px);
+}
+
+.flor-story {
+    padding: 85px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.story-image {
+    min-height: 340px;
+    border-radius: 45% 45% 25px 25px;
+    background: linear-gradient(145deg, #f8dce9, #e7ddf5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #82668e;
+    font-family: 'Playfair Display', serif;
+}
+
+.flower-art {
+    font-size: 125px;
+}
+
+.story-image span {
+    margin-top: 12px;
+    font-style: italic;
+}
+
+.story-content h2,
+.section-heading h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 37px;
+    color: #594765;
+    margin: 12px 0;
+}
+
+.story-content p {
+    color: #796e7d;
+    line-height: 1.9;
+    font-size: 14px;
+}
+
+.flor-values,
+.flor-team {
+    padding: 75px 10%;
+    background: #fff8fb;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 40px;
+}
+
+.section-heading > p:last-child {
+    color: #86798b;
+    line-height: 1.7;
+}
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.value-card {
+    padding: 35px;
+    border-radius: 22px;
+    background: white;
+    border: 1px solid #f1e2ee;
+    box-shadow: 0 12px 35px rgba(120, 85, 130, .07);
+}
+
+.value-icon {
+    font-size: 40px;
+}
+
+.value-card h3 {
+    color: #896a96;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.value-card p,
+.value-card li {
+    color: #796e7d;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.value-card ul {
+    padding-left: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.team-card {
+    background: white;
+    padding: 30px 15px;
+    text-align: center;
+    border-radius: 22px;
+    border: 1px solid #f1e2ee;
+    box-shadow: 0 10px 30px rgba(120, 85, 130, .06);
+}
+
+.team-avatar {
+    width: 105px;
+    height: 105px;
+    margin: 0 auto 18px;
+    display: grid;
+    place-items: center;
+    background: #f4e7f5;
+    border-radius: 50%;
+    font-size: 48px;
+}
+
+.team-card h3 {
+    color: #65516f;
+}
+
+.team-card p {
+    color: #bd83a8;
+    font-size: 13px;
+}
+
+.flor-cta {
+    text-align: center;
+    padding: 75px 20px;
+    background: linear-gradient(120deg, #f5e2ef, #e9e2f7);
+}
+
+.flor-cta h2 {
+    color: #654d70;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+.flor-cta p:not(.eyebrow) {
+    color: #796b80;
+}
+
+.flor-footer {
+    padding: 35px 15px;
+    text-align: center;
+    background: #594765;
+    color: white;
+}
+
+.flor-footer h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.flor-footer p,
+.flor-footer small {
+    color: #ead9ec;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .flor-header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .flor-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .flor-hero {
+        text-align: center;
+        justify-content: center;
+        padding: 65px 7%;
+    }
+
+    .hero-decoration {
+        display: none;
+    }
+
+    .flor-story {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 60px 7%;
+    }
+
+    .story-image {
+        min-height: 260px;
+    }
+
+    .value-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .flor-values,
+    .flor-team {
+        padding: 60px 7%;
+    }
+}
